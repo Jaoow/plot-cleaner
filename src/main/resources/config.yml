@@ -1,0 +1,44 @@
+world-to-clear: 'plotworld'
+clear-all-merged: true
+blocks-to-replace:
+  - '1:0'
+  - '2:0'
+  - '3:0'
+
+messages:
+  start-clearing: "&aLimpando terreno..."
+  finished-cleaning: "&aLimpeza finalizada."
+  not-own-this-plot: "&cVocê não tem permissão pra limpar este terreno."
+
+cleaner-item:
+  material: GOLD_SPADE
+  data: 0
+  name: "&eLimpador de Terreno"
+  lore:
+    - ""
+    - "&7Quebre um bloco do seu terreno para utiliza-lô"
+    - "&7Lembre-se: está ação é irreversível"
+    - ""
+
+confirm-inventory:
+  title: "Confirmar - Limpar do Terreno?"
+  size: 3
+  itens:
+    decline:
+      material: WOOL
+      data: 14
+      slot: 12
+      name: "&cCancelar"
+      lore:
+        - ""
+        - "&cClique para cancelar!"
+        - ""
+    accept:
+      material: WOOL
+      data: 5
+      slot: 14
+      name: "&aAceitar"
+      lore:
+        - ""
+        - "&aClique para limpar o terreno!"
+        - ""

@@ -1,0 +1,9 @@
+name: PlotCleaner
+version: ${project.version}
+author: Jaoow
+main: com.joaolucas.cleaner.Main
+
+depend: [WorldEdit, FastAsyncWorldEdit, PlotSquared]
+commands:
+  givelimpador:
+    description: "Send a cleaner item to player"
